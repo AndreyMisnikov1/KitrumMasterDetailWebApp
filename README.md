@@ -25,6 +25,7 @@ How to work with
 Repository(DAL):
 1) add implementation to IGenericRepository, GenericRepository if the database action is common and can be reused.
 2) create interface from IGenericRepository<T> and implement new method in own reposity if the action should not be reused
+
 Services(BL):
 1) add implementation to IGenericService, GenericDbServiceBase if the database action is common and can be reused.
 2) create interface from IGenericService<T> and implement new method in own service if the action should not be reused
