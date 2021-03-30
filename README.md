@@ -12,12 +12,12 @@ The solution contains the following packages:
 3) AutoMapper.Extensions.ExpressionMapping to map expressions with DTO to EF entities
 
 Get started guide:
-1) Open appsettings.json file and change DatabaseConnection values if it is needed
+1) Open appsettings.json file and change DatabaseConnection value if it is needed
 2) Update database dotnet ef --startup-project ../WebApplication/ database update (run from DAL project)
 
 Note to readers: If you haven't installed dotnet ef, you need to install it first: dotnet tool install --global dotnet-ef
 
-in order to add migration use the following command:
+In order to add migration use the following command:
 dotnet ef --startup-project ../WebApplication/ migrations add [migrationName]
 
 
